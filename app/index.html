@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Contact List</title>
+  <link rel="stylesheet" href="libs/bower/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="includes/style.css">
+
+
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#" class="pull-right">Contact Manager</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#" class="pull-right">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="starter-template">
+      <h1>Contact manager</h1>
+      <p class="lead">This app is a full functionality of REST API application using MEAN stack</p>
+    </div>
+
+    <!--        tbody>(tr>td{$}+td{First Name $}+td{Last name $}+td{0426 747 259}+td{test@none.com}+td.action>((span.glyphicon.glyphicon-pencil>a.sr-only{Edit})+(span.glyphicon.glyphicon-trash>a.sr-only{Delete})))*10    -->
+
+    <div class="row">
+      <div class="col-md-12">
+        <a class="btn btn-primary" href="add.html">Crete new</a>
+      </div>
+      <hr>
+      <div class="col-md-12">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>Sl #</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Mobile</th>
+              <th>Email</th>
+              <th>action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>First Name 1</td>
+              <td>Last name 1</td>
+              <td>0426 747 259</td>
+              <td>test@none.com</td>
+              <td class="action"><a href="edit.html"><span class="glyphicon glyphicon-pencil"></span></a><a data-toggle="modal"  href="#myModal" class="delete pull-right"><span class="glyphicon glyphicon-trash"></span></a></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>First Name 2</td>
+              <td>Last name 2</td>
+              <td>0426 747 259</td>
+              <td>test@none.com</td>
+              <td class="action"><a href="edit.html"><span class="glyphicon glyphicon-pencil"></span></a><a data-toggle="modal"  href="#myModal" class="delete pull-right"><span class="glyphicon glyphicon-trash"></span></a></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>First Name 3</td>
+              <td>Last name 3</td>
+              <td>0426 747 259</td>
+              <td>test@none.com</td>
+              <td class="action"><a href="edit.html"><span class="glyphicon glyphicon-pencil"></span></a><a data-toggle="modal"  href="#myModal" class="delete pull-right"><span class="glyphicon glyphicon-trash"></span></a></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>First Name 4</td>
+              <td>Last name 4</td>
+              <td>0426 747 259</td>
+              <td>test@none.com</td>
+              <td class="action"><a href="edit.html"><span class="glyphicon glyphicon-pencil"></span></a><a data-toggle="modal"  href="#myModal" class="delete pull-right"><span class="glyphicon glyphicon-trash"></span></a></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>First Name 5</td>
+              <td>Last name 5</td>
+              <td>0426 747 259</td>
+              <td>test@none.com</td>
+              <td class="action"><a href="edit.html"><span class="glyphicon glyphicon-pencil"></span></a><a data-toggle="modal"  href="#myModal" class="delete pull-right"><span class="glyphicon glyphicon-trash"></span></a></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>First Name 6</td>
+              <td>Last name 6</td>
+              <td>0426 747 259</td>
+              <td>test@none.com</td>
+              <td class="action"><a href="edit.html"><span class="glyphicon glyphicon-pencil"></span></a><a data-toggle="modal"  href="#myModal" class="delete pull-right"><span class="glyphicon glyphicon-trash"></span></a></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>First Name 7</td>
+              <td>Last name 7</td>
+              <td>0426 747 259</td>
+              <td>test@none.com</td>
+              <td class="action"><a href="edit.html"><span class="glyphicon glyphicon-pencil"></span></a><a data-toggle="modal"  href="#myModal" class="delete pull-right"><span class="glyphicon glyphicon-trash"></span></a></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>First Name 8</td>
+              <td>Last name 8</td>
+              <td>0426 747 259</td>
+              <td>test@none.com</td>
+              <td class="action"><a href="edit.html"><span class="glyphicon glyphicon-pencil"></span></a><a data-toggle="modal"  href="#myModal" class="delete pull-right"><span class="glyphicon glyphicon-trash"></span></a></td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>First Name 9</td>
+              <td>Last name 9</td>
+              <td>0426 747 259</td>
+              <td>test@none.com</td>
+              <td class="action"><a href="edit.html"><span class="glyphicon glyphicon-pencil"></span></a><a data-toggle="modal"  href="#myModal" class="delete pull-right"><span class="glyphicon glyphicon-trash"></span></a></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>First Name 10</td>
+              <td>Last name 10</td>
+              <td>0426 747 259</td>
+              <td>test@none.com</td>
+              <td class="action"><a href="edit.html"><span class="glyphicon glyphicon-pencil"></span></a><a data-toggle="modal"  href="#myModal" class="delete pull-right"><span class="glyphicon glyphicon-trash"></span></a></td>
+            </tr>
+          </tbody>
+        </table>
+        <hr>
+
+        <nav>
+          <ul class="pagination">
+            <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+            <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+            <li><a href="#" >2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li>
+              <a href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+
+
+      </div>
+    </div>
+  </div>
+  
+  <!-- /.container -->
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">&copy; 2016 - goDannY.in</p>
+    </div>
+  </footer>
+<div class="modal fade" tabindex="-1" role="dialog"  id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Delete</h4>
+      </div>
+      <div class="modal-body">
+        <p>Are you sure want to delete this contact?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Delete</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->  
+    <script src="libs/bower/jquery/dist/jquery.min.js"></script>
+  <script src="libs/bower/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
